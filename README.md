@@ -40,11 +40,11 @@ Right: The corresponding generalization curves for different plotted over the tr
 ## Extra experiments
 
 ### Match between theory and experiments
-Here, we validate our analytical results by comparing our analytical results (Eqs. 12, 14 substituted into Eq. 6) with empirical gradient descent:
+Here, we validate our analytical results by comparing the following three methods:
 ```
-Emperical gradient descent
-Analytical results - the exact general case (Eq. 9 substituted into Eq. 6):
-Analytical results - the approximate fast-slow case (Eqs. 12, 14 substituted into Eq. 6):
+1. Emperical gradient descent
+2. Analytical results - the exact general case (Eq. 9 substituted into Eq. 6):
+3. Analytical results - the approximate fast-slow case (Eqs. 12, 14 substituted into Eq. 6):
 ```
 
 ``` python extra_experiments/emp_vs_analytic.py```

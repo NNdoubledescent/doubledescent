@@ -1,8 +1,8 @@
 import numpy as np
 from lib.analytical import analytical_results
 import matplotlib as mpl
-import matplotlib.pyplot as plt
 mpl.use('tkagg')
+import matplotlib.pyplot as plt
 np.random.seed(1234)
 
 # n: number of training examples

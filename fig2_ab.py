@@ -1,9 +1,9 @@
 import os
 import numpy as np
 import matplotlib as mpl
+mpl.use('tkagg')
 import matplotlib.pyplot as plt
 from matplotlib import gridspec
-mpl.use('tkagg')
 from matplotlib import rc
 rc('text', usetex=True)
 rc('font', size=11, family='sans-serif')
